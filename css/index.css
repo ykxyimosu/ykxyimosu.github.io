@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    height: 25vw;
+    margin-bottom: 2.5vh;
+    overflow: hidden;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+    margin: 10px;
+}
+
+.imglist {
+    text-align: center;
+    margin-bottom: 2vw;
+    /* padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px; */
+}
+
+.container {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    background-color: rgba(3, 169, 244, 0.12);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 5vh;
+}
+
+
+/* div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} */
+
+.photo {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(../img/photo.jpg);
+    background-size: 27vw;
+    background-position-x: -2vw;
+    background-position-y: -11vw;
+    border-radius: 50%;
+    float: left;
+    margin-left: 4vw;
+}
+
+.info {
+    margin-left: 25px;
+    float: left;
+}
+
+div.info>div {
+    margin-top: 10px;
+}
+
+div.info>div.name {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-blue {
+    background-color: #122ab1;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #3b4994;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.introduce {
+    margin-left: 4vw;
+}
+
+.btn-color1 {
+    background-color: #588aae;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-color2 {
+    background-color: #588aae;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1vw;
+}
